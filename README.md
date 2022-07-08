@@ -1,4 +1,4 @@
-This project example about hot reload ractjs app in docker
+This project example about hot reload Reactjs app in docker
 
 ## Available Scripts
 
