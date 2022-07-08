@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  frontend-web:
+    container_name: react-app-web
+    build:
+      context: .
+    ports:
+      - 5005:3000
+    volumes:
+      - ./src:/app/html/src
+    environment:
+      - WATCHPACK_POLLING=true
